@@ -11,6 +11,5 @@ func main(){
 }
 
 func powerNumer(number float64)string{
-	powNum := math.Pow(number, 2)
-	return "Квадратом числа " + fmt.Sprint(number) + ", будет число: " + fmt.Sprint(powNum)
+	return "Квадратом числа " + fmt.Sprint(number) + ", будет число: " + fmt.Sprint(math.Pow(number, 2))
 }
